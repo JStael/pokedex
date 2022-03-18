@@ -1,0 +1,77 @@
+.container-home {
+  width: 80%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+
+.titulo {
+  font-family: "Electrolize", sans-serif;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.pokedex {
+  max-width: 250px;
+  margin-top: 1rem;
+}
+
+.subtitulo {
+  font-family: "Electrolize", sans-serif;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.tipos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  width: 50%;
+}
+
+.tipoPokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 180px;
+  width: 180px;
+}
+
+.imgTipoPokemon {
+  width: 120px;
+  transition: ease-in 0.2s;
+}
+
+.imgTipoPokemon:hover {
+  width: 150px;
+  transition: ease-in 0.2s;
+}
+
+.nomeTipoPokemon {
+  font-family: "Electrolize", sans-serif;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+@media (max-width: 700px) {
+  .titulo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .imgTipoPokemon {
+    width: 80px;
+  }
+
+  .imgTipoPokemon:hover {
+    width: 100px;
+  }
+}

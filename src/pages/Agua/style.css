@@ -1,0 +1,64 @@
+.container-agua {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.logo-elemento {
+  width: 120px;
+}
+
+.caixa-elemento {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.caixa-texto-elemento {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-elemento-agua {
+  font-family: "Electrolize", sans-serif;
+  color: #003380;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.titulo-elemento {
+  font-family: "Electrolize", sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.label-pesquisa {
+  font-family: "Electrolize", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.campo-pesquisa {
+  margin-top: 1rem;
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+  padding-left: 1rem;
+  font-family: "Electrolize", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
+  width: 60%;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
